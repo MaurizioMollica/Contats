@@ -1,0 +1,45 @@
+﻿<SolutionFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <CurrentPlanName />
+  <Description i:nil="true" />
+  <EditorVersion>17</EditorVersion>
+  <Id>1e97388d-c3c1-4517-b385-142a90b85055</Id>
+  <Name>Contacts</Name>
+  <References>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>AddressReference</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>BasicContactInfo</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CityReference</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>NoUsers_T</Name>
+      <ResourceId i:nil="true" />
+      <Type>AclModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>Contacts_Identity</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+  </References>
+  <DeployPlans />
+</SolutionFile>

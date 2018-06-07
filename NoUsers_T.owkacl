@@ -1,0 +1,74 @@
+﻿<AclModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>17</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>NoUsers_T</Name>
+  <ObjectType>AclModel</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <AceList>
+    <Item>
+      <ContextCondition i:type="FilterGroup">
+        <Code i:nil="true" />
+        <Filters>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:nil="true" />
+            <Predicate>
+              <Type>BelongsToAnyIdentityRepository</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+        </Filters>
+        <Operator>Or</Operator>
+      </ContextCondition>
+      <Id>0B15A92272BE43149D27A59200CD4FD1</Id>
+      <Permission>ReadOrganizationStructure UpdateOrganizationStructure ReadResource UpdateResource BrowseResource CreateInstance CreateOrganizationalAssignments</Permission>
+      <Name>Everyone</Name>
+    </Item>
+    <Item>
+      <ContextCondition i:type="FilterGroup">
+        <Code i:nil="true" />
+        <Filters>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:nil="true" />
+            <Predicate>
+              <Type>BelongsToAnyIdentityRepository</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+        </Filters>
+        <Operator>Or</Operator>
+      </ContextCondition>
+      <Id>3783FF92C90E487F8DE0A59200D49ABB</Id>
+      <Permission>DeleteResource RecustomizeResource ConfigureResourcePermissions</Permission>
+      <Name>CustomGroup</Name>
+    </Item>
+  </AceList>
+  <BaseType>CustomType</BaseType>
+  <EmbeddedObjects />
+</AclModel>

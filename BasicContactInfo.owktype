@@ -1,0 +1,553 @@
+﻿<CustomTypeModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description>Set of useful data to enter additional contact information such as Phone, Email, Skype, Facebook, Linkedin, Twitter ecc.</Description>
+  <DesignerVersion>17</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>BasicContactInfo</Name>
+  <ObjectType>CustomTypeModel</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <EmbeddedObjects />
+  <SeriesDefinition i:nil="true" />
+  <TypeDefinition>
+    <Dictionary>
+      <Item>
+        <Key>Type</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description>Keyword that describes the type of additional information such as Phone, Skype, Facebook, Linkedin, Twitter, Link web ecc..</Description>
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>Type</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+        </Val>
+      </Item>
+      <Item>
+        <Key>Key</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description>Keyword that describes the additional information</Description>
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>Key</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>String</Type>
+          </Type>
+        </Val>
+      </Item>
+      <Item>
+        <Key>Value</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description>Value of additional information</Description>
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>Value</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>String</Type>
+          </Type>
+        </Val>
+      </Item>
+    </Dictionary>
+    <Description>Set of useful data to enter additional contact information such as Phone, Email, Skype, Facebook, Linkedin, Twitter ecc.</Description>
+    <Name>BasicContactInfo</Name>
+    <BaseType>Dataset</BaseType>
+    <Behaviour>
+      <Items>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Dataset</DefinitionBaseType>
+                    <DefinitionName>BasicContactInfo</DefinitionName>
+                    <DefinitionReference>BasicContactInfo</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Type</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement>
+              <Code>List(KeyValue(0,'Select...'),KeyValue(1,'Email'),KeyValue(2,'Legal emal'),KeyValue(3,'Phone'),KeyValue(4,'Mobile phone'),KeyValue(5,'Fax'),KeyValue(6,'Istant messaging'),KeyValue(7,'Social network profile'),KeyValue(8,'Website'))</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToListOrNull</Type>
+              <Value>True</Value>
+            </Predicate>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Dataset</DefinitionBaseType>
+                    <DefinitionName>BasicContactInfo</DefinitionName>
+                    <DefinitionReference>BasicContactInfo</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Type</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement>
+              <Code>0</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>GreaterThan</Type>
+              <Value>True</Value>
+            </Predicate>
+          </Fact>
+        </Item>
+      </Items>
+      <Description i:nil="true" />
+      <Name i:nil="true" />
+    </Behaviour>
+    <DefaultLayout>Layout</DefaultLayout>
+    <Id>BasicContactInfo</Id>
+    <LayoutDefinitions>
+      <Item>
+        <Key>Layout</Key>
+        <Val i:type="LayoutDefinition">
+          <Description i:nil="true" />
+          <Name>Layout</Name>
+          <TagList i:nil="true" />
+          <LayoutItems>
+            <Dictionary>
+              <Item>
+                <Key>Item1</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item1</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>87</MinWidth>
+                      <Width>400</Width>
+                      <X>0</X>
+                      <Y>48</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Key</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>4</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Dataset</DefinitionBaseType>
+                          <DefinitionName>BasicContactInfo</DefinitionName>
+                          <DefinitionReference>BasicContactInfo</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>Key</Name>
+                          <Type i:type="InternalType">
+                            <Type>String</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item2</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item2</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>87</MinWidth>
+                      <Width>401</Width>
+                      <X>400</X>
+                      <Y>48</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Value</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>4</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Dataset</DefinitionBaseType>
+                          <DefinitionName>BasicContactInfo</DefinitionName>
+                          <DefinitionReference>BasicContactInfo</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>Value</Name>
+                          <Type i:type="InternalType">
+                            <Type>String</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item3</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item3</Name>
+                  <GraphicInfo>
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>543</Height>
+                      <MaxHeight>0</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>10</MinHeight>
+                      <MinWidth>10</MinWidth>
+                      <Width>801</Width>
+                      <X>0</X>
+                      <Y>72</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item3</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item4</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item4</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>87</MinWidth>
+                      <Width>400</Width>
+                      <X>0</X>
+                      <Y>24</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Type</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>4</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                    <ControlType>ComboBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Dataset</DefinitionBaseType>
+                          <DefinitionName>BasicContactInfo</DefinitionName>
+                          <DefinitionReference>BasicContactInfo</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>Type</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item5</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item5</Name>
+                  <GraphicInfo>
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>0</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>10</MinHeight>
+                      <MinWidth>10</MinWidth>
+                      <Width>401</Width>
+                      <X>400</X>
+                      <Y>24</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item5</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item6</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item6</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>801</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>DimGray</BackColor>
+                          <Font>Segoe UI; 12pt</Font>
+                          <ForeColor>WhiteSmoke</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>SectionTitle</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Label</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource>
+                      <Code>'Additional contact info'</Code>
+                      <Description />
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+            </Dictionary>
+          </LayoutItems>
+          <RootGraphicInfo>
+            <AbsoluteLayoutInfo>
+              <CustomSize>false</CustomSize>
+              <Height>635</Height>
+              <MaxHeight>0</MaxHeight>
+              <MaxWidth>0</MaxWidth>
+              <MinHeight>102</MinHeight>
+              <MinWidth>194</MinWidth>
+              <Width>821</Width>
+              <X>0</X>
+              <Y>0</Y>
+            </AbsoluteLayoutInfo>
+            <AdditionalGraphicInfos />
+            <ParentName />
+            <TableCellInfo>
+              <Column>1</Column>
+              <ColumnSpan>1</ColumnSpan>
+              <Row>1</Row>
+              <RowSpan>1</RowSpan>
+            </TableCellInfo>
+            <TextInfo>
+              <Text>
+                <Default>Root</Default>
+                <Others />
+              </Text>
+              <TextDistance>0</TextDistance>
+              <TextLocation>top</TextLocation>
+              <TextVisible>false</TextVisible>
+            </TextInfo>
+            <TabbedInfo i:nil="true" />
+            <TableInfo>
+              <Columns>
+                <TableLayoutSegment>
+                  <Size>400</Size>
+                  <SizeType>Percentage</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>401</Size>
+                  <SizeType>Percentage</SizeType>
+                </TableLayoutSegment>
+              </Columns>
+              <Rows>
+                <TableLayoutSegment>
+                  <Size>24</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>24</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>24</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>543</Size>
+                  <SizeType>Percentage</SizeType>
+                </TableLayoutSegment>
+              </Rows>
+            </TableInfo>
+          </RootGraphicInfo>
+          <HideAttachments>false</HideAttachments>
+          <HideComponents>false</HideComponents>
+        </Val>
+      </Item>
+    </LayoutDefinitions>
+    <RelatedCatalogs />
+    <MappingDefinitions />
+    <CustomActions />
+  </TypeDefinition>
+  <Parameters>
+    <AuthorizationSchemaName />
+    <CategoryName>Default</CategoryName>
+    <Name>BasicContactInfo</Name>
+  </Parameters>
+</CustomTypeModel>
