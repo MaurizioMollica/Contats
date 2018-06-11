@@ -1725,7 +1725,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>323</Width>
+                      <Width>616</Width>
                       <X>158</X>
                       <Y>24</Y>
                     </AbsoluteLayoutInfo>
@@ -1739,7 +1739,7 @@
                     </TableCellInfo>
                     <TextInfo>
                       <Text>
-                        <Default>Title</Default>
+                        <Default>Titolo</Default>
                         <Others />
                       </Text>
                       <TextDistance>4</TextDistance>
@@ -1785,7 +1785,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>626</Width>
+                      <Width>1193</Width>
                       <X>158</X>
                       <Y>48</Y>
                     </AbsoluteLayoutInfo>
@@ -1845,7 +1845,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>626</Width>
+                      <Width>1193</Width>
                       <X>158</X>
                       <Y>72</Y>
                     </AbsoluteLayoutInfo>
@@ -1905,8 +1905,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>303</Width>
-                      <X>481</X>
+                      <Width>577</Width>
+                      <X>774</X>
                       <Y>24</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -1965,7 +1965,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>216</Y>
                     </AbsoluteLayoutInfo>
@@ -2041,7 +2041,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>240</Y>
                     </AbsoluteLayoutInfo>
@@ -2109,8 +2109,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>264</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -2177,7 +2177,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>264</Y>
                     </AbsoluteLayoutInfo>
@@ -2245,7 +2245,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>288</Y>
                     </AbsoluteLayoutInfo>
@@ -2313,8 +2313,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>240</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -2381,7 +2381,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>168</Y>
                     </AbsoluteLayoutInfo>
@@ -2450,7 +2450,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>360</Y>
                     </AbsoluteLayoutInfo>
@@ -2526,7 +2526,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>384</Y>
                     </AbsoluteLayoutInfo>
@@ -2594,8 +2594,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>384</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -2662,7 +2662,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>432</Y>
                     </AbsoluteLayoutInfo>
@@ -2730,7 +2730,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>408</Y>
                     </AbsoluteLayoutInfo>
@@ -2798,8 +2798,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>456</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -2866,7 +2866,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>456</Y>
                     </AbsoluteLayoutInfo>
@@ -2934,7 +2934,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
+                      <Width>676</Width>
                       <X>0</X>
                       <Y>480</Y>
                     </AbsoluteLayoutInfo>
@@ -3002,8 +3002,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>408</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -3070,7 +3070,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>626</Width>
+                      <Width>1193</Width>
                       <X>158</X>
                       <Y>96</Y>
                     </AbsoluteLayoutInfo>
@@ -3130,7 +3130,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>528</Y>
                     </AbsoluteLayoutInfo>
@@ -3190,7 +3190,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>626</Width>
+                      <Width>1193</Width>
                       <X>158</X>
                       <Y>120</Y>
                     </AbsoluteLayoutInfo>
@@ -3250,7 +3250,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>552</Y>
                     </AbsoluteLayoutInfo>
@@ -3310,7 +3310,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>215</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>576</Y>
                     </AbsoluteLayoutInfo>
@@ -3370,7 +3370,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>170</MinHeight>
                       <MinWidth>161</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>600</Y>
                     </AbsoluteLayoutInfo>
@@ -3460,7 +3460,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>185</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>336</Y>
                     </AbsoluteLayoutInfo>
@@ -3520,8 +3520,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>10</MinHeight>
                       <MinWidth>10</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>168</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -3621,8 +3621,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>10</MinHeight>
                       <MinWidth>10</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>480</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -3662,8 +3662,8 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>10</MinHeight>
                       <MinWidth>10</MinWidth>
-                      <Width>392</Width>
-                      <X>392</X>
+                      <Width>675</Width>
+                      <X>676</X>
                       <Y>288</Y>
                     </AbsoluteLayoutInfo>
                     <AdditionalGraphicInfos />
@@ -3703,7 +3703,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>185</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>192</Y>
                     </AbsoluteLayoutInfo>
@@ -3763,7 +3763,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>54</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>0</Y>
                     </AbsoluteLayoutInfo>
@@ -3818,7 +3818,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>54</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>144</Y>
                     </AbsoluteLayoutInfo>
@@ -3873,7 +3873,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>54</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>312</Y>
                     </AbsoluteLayoutInfo>
@@ -3928,7 +3928,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>24</MinHeight>
                       <MinWidth>54</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>504</Y>
                     </AbsoluteLayoutInfo>
@@ -3983,7 +3983,7 @@
                       <MaxWidth>0</MaxWidth>
                       <MinHeight>10</MinHeight>
                       <MinWidth>10</MinWidth>
-                      <Width>784</Width>
+                      <Width>1351</Width>
                       <X>0</X>
                       <Y>770</Y>
                     </AbsoluteLayoutInfo>
@@ -4021,7 +4021,7 @@
               <MaxWidth>0</MaxWidth>
               <MinHeight>800</MinHeight>
               <MinWidth>608</MinWidth>
-              <Width>804</Width>
+              <Width>1371</Width>
               <X>0</X>
               <Y>0</Y>
             </AbsoluteLayoutInfo>
@@ -4050,15 +4050,15 @@
                   <SizeType>Default</SizeType>
                 </TableLayoutSegment>
                 <TableLayoutSegment>
-                  <Size>234</Size>
+                  <Size>518</Size>
                   <SizeType>Percentage</SizeType>
                 </TableLayoutSegment>
                 <TableLayoutSegment>
-                  <Size>89</Size>
+                  <Size>98</Size>
                   <SizeType>Percentage</SizeType>
                 </TableLayoutSegment>
                 <TableLayoutSegment>
-                  <Size>303</Size>
+                  <Size>577</Size>
                   <SizeType>Percentage</SizeType>
                 </TableLayoutSegment>
               </Columns>
